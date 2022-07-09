@@ -1,14 +1,11 @@
-* {
-  font-family: sans-serif;
-}
 body {
   background: url(https://images.unsplash.com/photo-1656332428317-d4532b0fe5aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
   background-size: cover;
   width: 100%;
+  font-family: sans-serif;
 }
 div {
   border-radius: 20px;
-  opacity: 0.9;
   margin: 3px;
   padding: 5px;
 }
@@ -16,32 +13,33 @@ div {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 4px;
 }
 .content {
   border: 2px solid #0bc10b;
-  background-image: url(matt.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  border-radius: 20px;
   width: 160px;
-  height: 140px;
+  height: 130px;
   justify-content: left;
 }
 .content2{
+  font-family: Verdana;
   border: 2px solid #0bc10b;
   text-align: center;
   background-color: rgb(123, 123, 123);
   width: 100%;
   height: 50%;
-  color: #122121;
-  text-transform: uppercase;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 .one {
+  opacity: 0.9;
   border: 2px solid #f798;
   border-radius: 20px;
   width: 640px;
   height: 360px;
 }
 .box1 {
+  display: inline-block;
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
@@ -60,7 +58,7 @@ h2 {
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
 }
-.box21{
+.desing{
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1656968677524-01adff859f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
   background-attachment: fixed;
@@ -72,14 +70,15 @@ h2 {
   color: #742b74;
   justify-content: center;
 }
-.box3 {
+.services {
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
 }
 .mp4 {
-  font-size: 18px;
-  color: rgba(99, 48, 82, 0.6);
+  font-size: 20px;
+  color: #611e1e;
+  border-color: 0 2px solid #000;
   text-align: right;
 }
 .btn{
