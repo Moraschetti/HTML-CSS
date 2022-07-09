@@ -13,20 +13,21 @@ div {
   padding: 5px;
 }
 .container {
-  border: 2px solid #0bc10b;
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  align-items: left;
+  align-items: center;
 }
 .content {
+  border: 2px solid #0bc10b;
   background-image: url(matt.jpg);
-  background-size: contain;
-  width: 90px;
-  height: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 140px;
+  justify-content: left;
 }
-h1 {
-  justify-content: center;
+.content2{
+  border: 2px solid #0bc10b;
   text-align: center;
   background-color: rgb(123, 123, 123);
   width: 100%;
@@ -59,10 +60,16 @@ h2 {
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
 }
+.box21{
+  border: 2px solid #0bc10b;
+  background-image: url(https://images.unsplash.com/photo-1656968677524-01adff859f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-attachment: fixed;
+  background-size: contain;
+}
 .mp3 {
   font-size: 20px;
   text-align: center;
-  color: #f799;
+  color: #742b74;
   justify-content: center;
 }
 .box3 {
@@ -71,17 +78,20 @@ h2 {
   background-attachment: fixed;
 }
 .mp4 {
-  font-size: 12px;
-  color: #d7b9;
+  font-size: 18px;
+  color: rgba(99, 48, 82, 0.6);
   text-align: right;
 }
+.btn{
+  display: inline-flex;
+}
 .box4 {
-  border: 2px solid #0bc10b;
+  border: 2px solid #296929;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
 }
 .mp5 {
-  color: #0c2d;
+  color: rgba(63, 184, 83, 0.867)18, 109, 33, 0.867);
   text-decoration: none;
 }
 a {
