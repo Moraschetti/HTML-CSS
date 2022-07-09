@@ -12,6 +12,12 @@ div {
   margin: 3px;
   padding: 5px;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 h1 {
   justify-content: center;
   text-align: center;
