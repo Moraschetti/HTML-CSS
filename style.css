@@ -10,6 +10,10 @@ div {
   margin: 3px;
   padding: 5px;
 }
+h2 {
+  text-transform: uppercase;
+  color: #0c2d;
+}
 .encuadrar{
   border: 2px solid #0bc10b;
   background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
@@ -44,25 +48,20 @@ header > nav{
   background-image: url(https://images.unsplash.com/photo-1656968677524-01adff859f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
 }
 .one {
+  display: flex;
+  flex-direction: row;
   opacity: 0.9;
   border: 2px solid #f798;
   border-radius: 20px;
   width: 640px;
   height: 360px;
 }
+
 .box1 {
-  display: inline-block;
+  display: flex;
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
-}
-h2 {
-  text-transform: uppercase;
-  color: #0c2d;
-}
-.mp2 {
-  color: #0b8;
-  text-align: center;
 }
 .box2 {
   border: 2px solid #0bc10b;
@@ -101,12 +100,30 @@ nav ul li a {
   justify-content: space-between;
 }
 .gallery {
-  color: #000;
+  background-image: url(https://images.unsplash.com/photo-1656968677524-01adff859f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-attachment: fixed;
   border: 2px solid #0bc10b;
   text-align: center;
   margin-right: 80px; 
-  background-image: url(https://images.unsplash.com/photo-1656968677524-01adff859f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
-  background-attachment:fixed;
+}
+.mp2 {
+  display: flex;
+  flex-direction: row;
+  color: #0b8;
+  text-align: center;
+}
+article{
+  display: flex;
+  flex-direction: row;
+}
+.encuadrar2{
+  display: flex;
+  flex-direction: row;
+}
+.box2 {
+  border: 2px solid #0bc10b;
+  background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-attachment: fixed;
 }
 .desing{
   border: 2px solid #0bc10b;
@@ -120,6 +137,7 @@ nav ul li a {
   color: #742b74;
   justify-content: center;
 }
+
 .services {
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
@@ -135,6 +153,9 @@ nav ul li a {
   display: inline-flex;
 }
 .box4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border: 2px solid #296929;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
@@ -152,3 +173,4 @@ footer ul li a{
 	color: #0d3347;
 	font-weight: 900;
 }  
+
