@@ -30,6 +30,9 @@ header > nav{
   align-items: center;
   margin-bottom: 4px;
 }
+.content2:hover{
+   color: #4b89dc;
+}
 .content {
   border: 2px solid #0bc10b;
   border-radius: 20px;
@@ -176,6 +179,9 @@ footer ul li a{
 	text-decoration: none;
 	color: #0d3347;
 	font-weight: 900;
-}  
+} 
+a:hover{
+    color: #ed5564;
+} 
 
 
