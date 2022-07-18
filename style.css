@@ -59,9 +59,11 @@ header > nav{
 
 .box1 {
   display: flex;
+  flex-direction: column;
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-attachment: fixed;
+  font-size: 21px;
 }
 .box2 {
   border: 2px solid #0bc10b;
@@ -137,7 +139,6 @@ article{
   color: #742b74;
   justify-content: center;
 }
-
 .services {
   border: 2px solid #0bc10b;
   background-image: url(https://images.unsplash.com/photo-1617360547704-3da8b5363369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
@@ -168,9 +169,13 @@ footer {
   justify-content: space-between;
 	align-items: center;
 }
-footer ul li a{
+u{
+  font-size: 21px;
+}
+footer ul li a{ 
 	text-decoration: none;
 	color: #0d3347;
 	font-weight: 900;
 }  
+
 
