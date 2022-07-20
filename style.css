@@ -125,9 +125,19 @@ nav ul li a {
   text-align: center;
   margin-right: 80px;
 }
+.boton {
+  border: 3px solid #002232;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.boton:hover {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  color: #d94555;
+}
 .mp2 {
   display: flex;
   flex-direction: row;
+  color: #002232
   color: #611e1e;
   text-align: center;
 }
